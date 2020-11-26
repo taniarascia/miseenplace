@@ -3,7 +3,7 @@ $(document).ready(function () {
 		$('link[href="css/example.css"]').attr('href', 'css/eighties.css?version=2');
 	});
 	$('#boring').click(function () {
-		$('link[href="css/eighties.css"]').attr('href', 'css/example.css');
+		$('link[href="css/eighties.css?version=2"]').attr('href', 'css/example.css');
 	});
 	$(document).on("scroll", onScroll);
 
